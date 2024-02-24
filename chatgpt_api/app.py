@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request
 import openai
-import os
 
 """
 Uing the following command to change the permission of the file
@@ -10,7 +9,7 @@ sudo chmod -R 777 /home/stevehoang/nlp/
 app = Flask(__name__)
 
 # Set up OpenAI API credentials
-openai.api_key = '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'
+openai.api_key = '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'
 
 # Define the default route to return the index.html file
 @app.route("/")
