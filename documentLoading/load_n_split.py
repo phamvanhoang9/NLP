@@ -10,6 +10,8 @@ loader = PyPDFLoader(PDF_PATH)
 # split document
 pages = loader.load_and_split()
 
+# print(len(pages))
+
 # embedding function
 embedding_func = SentenceTransformerEmbeddings(
     model_name="all-MiniLM-L6-v2"

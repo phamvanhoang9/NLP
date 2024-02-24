@@ -24,6 +24,6 @@ vector_db = Chroma.from_texts(
 )
 
 response = vector_db.similarity_search(
-    query="Tell me about a programming language used for data science", k=2)
+    query="The platform for Python running", k=1)
 
 print(response)
