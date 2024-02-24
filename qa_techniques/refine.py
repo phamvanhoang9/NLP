@@ -3,7 +3,7 @@ from langchain.vectorstores import Chroma
 from langchain.prompts import PromptTemplate
 from langchain.chains import RetrievalQA
 from langchain.chat_models import ChatOpenAI
-from decouple import config
+from decouple import config 
 
 
 TEXT = ["Python is a versatile and widely used programming language known for its clean and readable syntax, which relies on indentation for code structure",
